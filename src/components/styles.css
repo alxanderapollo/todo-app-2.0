@@ -1,0 +1,15 @@
+.banner {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  color: aquamarine;
+}
+.bannerText {
+  font-size: 52px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #202142;
+  color: #fff;
+  line-height: 1.6;
+}
