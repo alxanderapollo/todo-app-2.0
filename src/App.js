@@ -1,15 +1,16 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Card from "../src/components/Card";
-import Header from "./components/Header";
+import Header from "./Components/Header";
+import { TodoProvider } from "./Context/TodoContext";
+import TodoForm from "./Components/TodoForm";
 function App() {
   return (
-    <>
+    <TodoProvider>
       <Header />
       <div className="container">
-        <Card />
+        <TodoForm />
       </div>
-    </>
+    </TodoProvider>
   );
 }
 
