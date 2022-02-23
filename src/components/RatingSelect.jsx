@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function RatingSelect({ select }) {
   const [selected, setSelected] = useState(10);
 
-  //   const {feedbackEdit } = useContext(FeedbackContext);
+  // const {feedbackEdit } = useContext(FeedbackContext);
 
-  //update the rating whenever the user select feedbackEdit on the ui
-  //   useEffect(() => {
-  //       //1. enable the send button
-  //       setSelected(feedbackEdit.item.rating);
-  //   }, [feedbackEdit]);
+  // update the rating whenever the user select feedbackEdit on the ui
+  // useEffect(() => {
+  //     //1. enable the send button
+  //     setSelected(feedbackEdit.item.rating);
+  // }, [feedbackEdit]);
 
   const handleChange = (e) => {
     //the plus sign changes the string into a number for us
