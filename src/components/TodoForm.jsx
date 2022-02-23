@@ -41,6 +41,7 @@ function TodoForm() {
       dateTime,
     };
     addTodos(newTodo);
+    setText("");
   };
   const handleTextSubmit = (e) => {
     //we want to know that the user isnt givning us empty data
