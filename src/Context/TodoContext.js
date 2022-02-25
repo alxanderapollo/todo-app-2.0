@@ -39,7 +39,9 @@ export const TodoProvider = ({ children }) => {
     setTodo([data, ...todo]);
   };
   return (
-    <TodoContext.Provider value={{ addTodos }}>{children}</TodoContext.Provider>
+    <TodoContext.Provider value={{ todo, addTodos }}>
+      {children}
+    </TodoContext.Provider>
   );
 };
 
