@@ -3,7 +3,6 @@ import TodoContext from "../Context/TodoContext";
 import { TodoItem } from "../Components/TodoItem";
 const TodoList = () => {
   const { todo } = useContext(TodoContext);
-  console.log("what is this??", todo);
   return (
     <>
       {todo.map((todo, index) => (

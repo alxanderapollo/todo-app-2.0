@@ -38,8 +38,22 @@ export const TodoProvider = ({ children }) => {
     //new feedback is our most our current feedback item, that will be added to the feedback state
     setTodo([data, ...todo]);
   };
+  //delete todos
+  const deleteTodo = async (id) => {
+    //we need to fetch from the api and then use the delete verb
+    //deletes on the api
+    await fetch(`/todo/${id}`, { method: "DELETE" });
+    //filter out the item that has the matching id
+    setTodo(todo.filter((item) => item.id !== id));
+  };
+  //edit todos
+  const editTodo = async (item) => {
+    //to update we need the same kind of object
+  };
+  //update todos
+
   return (
-    <TodoContext.Provider value={{ todo, addTodos }}>
+    <TodoContext.Provider value={{ todo, addTodos, deleteTodo, editTodo }}>
       {children}
     </TodoContext.Provider>
   );
