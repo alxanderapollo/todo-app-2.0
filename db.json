@@ -1,52 +1,10 @@
 {
   "todos": [
     {
-      "id": 1,
-      "rating": 5,
-      "text": "close the windows so it isn't cold in the evening",
-      "date": "2/17/2022"
-    },
-    {
-      "text": "lets make this last forever",
-      "rating": null,
-      "dateTime": "2022-2-22 21:1:9",
-      "id": 2
-    },
-    {
-      "text": "okay tomorrow we awake go to the gym pump some iron ",
-      "rating": null,
-      "dateTime": "2022-2-22 21:2:58",
-      "id": 3
-    },
-    {
-      "text": "okay tomorrow we awake go to the gym pump some iron ",
-      "rating": null,
-      "dateTime": "2022-2-22 21:3:0",
-      "id": 4
-    },
-    {
-      "text": "okay tomorrow we awake go to the gym pump some iron ",
-      "rating": 8,
-      "dateTime": "2022-2-22 21:3:1",
-      "id": 5
-    },
-    {
-      "text": "it didnt refresh after adding text",
-      "rating": null,
-      "dateTime": "2022-2-22 21:3:28",
-      "id": 6
-    },
-    {
-      "text": "it didnt refresh after adding text",
-      "rating": null,
-      "dateTime": "2022-2-22 21:3:30",
-      "id": 7
-    },
-    {
-      "text": "ok we are checking now to see if this stuff is refreshing",
-      "rating": null,
-      "dateTime": "2022-2-22 21:7:39",
-      "id": 8
+      "text": "need to go to costco with the family and brush the cat",
+      "rating": 2,
+      "dateTime": "2022-2-27 13:27:0",
+      "id": 1
     }
   ]
 }

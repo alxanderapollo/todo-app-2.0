@@ -3,7 +3,7 @@ import Card from "../Shared/Card";
 import { FaTimes, FaEdit } from "react-icons/fa";
 import TodoContext from "../Context/TodoContext";
 
-export const TodoItem = (item) => {
+export const TodoItem = ({ item }) => {
   const { deleteTodo, editTodo } = useContext(TodoContext);
 
   return (
